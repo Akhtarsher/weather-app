@@ -1,0 +1,102 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+
+            min-height: 100vh;
+            background-color: rgb(23 125 147);
+            color: white;
+            font-family: "Prompt", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+        }
+        @media (max-width: 767px) {
+            .column {
+             
+              width: 100%; /* Full width on mobile devices */
+              height: 100vh; /* Full viewport height on mobile devices */
+              border-radius: 0px
+              
+              
+             
+            }
+           
+      
+          }
+        .row-centered {
+            display: flex;
+            align-items: center;
+            /* Center items vertically */
+            min-height: 100vh;
+            /* Ensure row takes full viewport height */
+        }
+
+        .column {
+            background-image: linear-gradient(310deg, rgb(31 196 175), rgb(10 59 109));
+
+            min-height: 500px;
+            /* margin-top: 30px; */
+            box-sizing: border-box;
+            border-radius: 20px;
+
+        }
+
+        .Search {
+            margin-top: 150px;
+        }
+
+        #input-city {
+            max-width: 40%;
+            border-radius: 24px 0px 0px 24px;
+            padding: 10px 10px;
+        }
+
+        #search-button {
+            background-color: #2bc9ac;
+            padding: 10px 10px;
+            border-radius: 0px 24px 24px 0px;
+           
+
+        }
+
+        .firstItems {
+            margin-top: 10px;
+        }
+
+        #city {
+            font-size: 50px;
+        }
+
+        #icon {
+            width: 100px;
+            height: 100px;
+        }
+
+        #temp {
+            font-size: 50px;
+        }
+
+        .itemsBg {
+         font-size: 30px;
+        }
+
+        #icon {
+            width: 100px;
+            height: 100px;
+        }
+
+        .bg {
+            background-color: rgb(96, 146, 168);
+        }
+
+        .hide {
+            display: none;
+        }
+
+    
